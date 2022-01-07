@@ -1,4 +1,6 @@
-#' Crapo Reference Equations for calculating predictive values for PFT variables
+#' getCrapoPred
+#' @description Crapo Reference Equations for calculating predictive values 
+#' for PFT variables
 #'
 #' @param sex string for biological sex (Female vs Male)
 #' @param ht height in cm
@@ -62,7 +64,9 @@ getCrapoPred <-  function(sex, ht, age, value = "FEV1"){
   return(ret)
 }
 
-#' Crapo Reference Equations for calculating lower limit of norm(LLN) for PFT variables
+#' getCrapoLLN
+#' @description  Crapo Reference Equations for calculating lower limit of norm(LLN) 
+#' for PFT variables
 #'
 #' @param sex string for biological sex (Female vs Male)
 #' @param ht height in cm

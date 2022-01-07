@@ -2,7 +2,7 @@
 % Please edit documentation in R/get_Crapo_equations.R
 \name{getCrapoPred}
 \alias{getCrapoPred}
-\title{Crapo Reference Equations for calculating predictive values for PFT variables}
+\title{getCrapoPred}
 \usage{
 getCrapoPred(sex, ht, age, value = "FEV1")
 }
@@ -19,5 +19,6 @@ getCrapoPred(sex, ht, age, value = "FEV1")
 Predictive value for PFT variable input
 }
 \description{
-Crapo Reference Equations for calculating predictive values for PFT variables
+Crapo Reference Equations for calculating predictive values
+for PFT variables
 }

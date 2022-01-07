@@ -2,7 +2,7 @@
 % Please edit documentation in R/get_Crapo_equations.R
 \name{getCrapoLLN}
 \alias{getCrapoLLN}
-\title{Crapo Reference Equations for calculating lower limit of norm(LLN) for PFT variables}
+\title{getCrapoLLN}
 \usage{
 getCrapoLLN(sex, ht, age, value = "FEV1")
 }
@@ -19,5 +19,6 @@ getCrapoLLN(sex, ht, age, value = "FEV1")
 LLN values for PFT variable input
 }
 \description{
-Crapo Reference Equations for calculating lower limit of norm(LLN) for PFT variables
+Crapo Reference Equations for calculating lower limit of norm(LLN)
+for PFT variables
 }
