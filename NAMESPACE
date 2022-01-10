@@ -2,3 +2,6 @@
 
 export(getCrapoLLN)
 export(getCrapoPred)
+export(getQuanjerLLN)
+export(getQuanjerPred)
+export(getQuanjerULN)

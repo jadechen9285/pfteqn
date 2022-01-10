@@ -10,7 +10,6 @@
 #' @return Predictive value for PFT variable input
 #' @export
 #'
-#' @examples
 getCrapoPred <-  function(sex, ht, age, value = "FEV1"){
   ## NOTE: unit for height(ht): [cm], age in [years]
   stopifnot(param %in% c('FEV1', 'FVC', 'FEF2575', 'FEV1FVC', 
@@ -76,7 +75,6 @@ getCrapoPred <-  function(sex, ht, age, value = "FEV1"){
 #' @return LLN values for PFT variable input
 #' @export
 #'
-#' @examples
 getCrapoLLN <- function(sex, ht, age, value = "FEV1"){
   ## NOTE: unit for height(ht): [cm], age in [years]
   stopifnot(param %in% c('FEV1', 'FVC', 'FEF2575', 'FEV1FVC', 
